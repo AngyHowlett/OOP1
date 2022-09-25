@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MainKtTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-25T16:06:08" hostname="ACER-ASPIRE-A31" time="0.017">
+<testsuite name="MainKtTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2022-09-25T16:16:01" hostname="ACER-ASPIRE-A31" time="0.034">
   <properties/>
-  <testcase name="calculateFee_Default" classname="MainKtTest" time="0.017"/>
+  <testcase name="calculateFee_Visa_Mir" classname="MainKtTest" time="0.019"/>
+  <testcase name="areLimitsNotOverrun_Not_VkPay_Overrun_Month" classname="MainKtTest" time="0.001"/>
+  <testcase name="areLimitsNotOverrun_VkPay_Not_Overrun" classname="MainKtTest" time="0.0"/>
+  <testcase name="calculateFee_Else" classname="MainKtTest" time="0.0"/>
+  <testcase name="areLimitsNotOverrun_Not_VkPay_Overrun_Day" classname="MainKtTest" time="0.001"/>
+  <testcase name="areLimitsNotOverrun_VkPay_OverrunPerMonth" classname="MainKtTest" time="0.0"/>
+  <testcase name="calculateFee_MasterCard_Maestro_OutOfLimits" classname="MainKtTest" time="0.002"/>
+  <testcase name="calculateFee_VkPay" classname="MainKtTest" time="0.0"/>
+  <testcase name="calculateFee_Default" classname="MainKtTest" time="0.001"/>
+  <testcase name="areLimitsNotOverrun_Not_VkPay_Not_Overrun" classname="MainKtTest" time="0.0"/>
+  <testcase name="calculateFee_MasterCard_Maestro_InLimits" classname="MainKtTest" time="0.0"/>
+  <testcase name="areLimitsNotOverrun_VkPay_OverrunPerSum" classname="MainKtTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
